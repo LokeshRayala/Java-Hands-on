@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "firstname": "Lokesh",
+      "lastname": "Rayala",
+      "email": "Lokesh123@gmail.com",
+      "id": 1
+    },
+    {
+      "firstname": "Aaron",
+      "lastname": "Finch",
+      "email": "Aaron@gmail.com",
+      "id": 2
+    },
+    {
+      "firstname": "James",
+      "lastname": "Anderson",
+      "email": "Anderson@gmail.com",
+      "id": 3
+    }
+  ]
+}
