@@ -1,0 +1,18 @@
+<br>
+<h2 style="text-align:center">User Login</h2>
+<div class="container mt-5 w-50">
+    <form [formGroup]="registerForm" (ngSubmit)="OnSubmit()">
+      <div class="form-group pt-5">
+        <label for="exampleInputEmail1"><i class="fa-solid fa-envelope"></i> Email address</label>
+        <input type="email" formControlName="uemail"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group mt-5">
+        <label for="exampleInputPassword1"><i class="fa-sharp fa-solid fa-key"></i> Password </label>
+        <input type="password" formControlName="upassword" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div >
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary ">Submit</button>
+  
+      </div>
+        </form>
+  </div>
